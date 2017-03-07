@@ -1,0 +1,24 @@
+<title>Simple use of Cross-Site XMLHttpRequest (Using Access Control)</title> 
+<cffunction name="optionsMethod" access="remote" output="false" returntype="any" httpmethod="OPTIONS" description="Method to respond to AngularJS trial call">
+    <cfheader name="Access-Control-Allow-Headers" value="Content-Type,x-requested-with,Authorization,Access-Control-Allow-Origin"> 
+    <cfheader name="Access-Control-Allow-Methods" value="GET,OPTIONS">      
+    <cfheader name="Access-Control-Allow-Origin" value="*">      
+    <cfheader name="Access-Control-Max-Age" value="360">        
+</cffunction>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+<body background="https://capetown-airport.co.za/wp-content/uploads/2016/03/capetownairporthome.jpg" id="icon" alt="Image relating to weather description">
+  
+<div class="row text-primary Text-center container-fluid h1">
+  <h1><span> Weather in </span><span id=city>your location</span></h1> </div>
+    <ul class =" list-unstyled">
+        
+        <li id=weather></li>
+        <li id=btnTemp class="btn"><span id=temp></span><span id=min></span> <span id=CF></span></li>
+        <li class ="list" id=humidity></li>
+    </ul> 
+         <!-- <button id=changedlocation class="btn btn-default">Refresh Location</button>-->
+          <h3 id="courtesy">Weather report courtesy of <a href="https://www.wunderground.com" target="_blank">wunderground.com</a></h3>
+  </div>
+  </body>
+  </html>

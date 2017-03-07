@@ -1,0 +1,15 @@
+  h1 {
+    color: Black;
+    font-family: Tangerine;
+    text-shadow: 4px 4px 4px #aaa;
+  }
+
+li { font-family: sans-serif;
+  font-size: 1em;
+  padding: 10px;
+}
+
+
+  h3 {
+    color: yellow;
+    font-size: 16px;
